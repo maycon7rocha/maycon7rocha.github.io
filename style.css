@@ -1,0 +1,21 @@
+body {
+  background: #f8f9fa;
+}
+header {
+  background: linear-gradient(90deg, #007bff 60%, #0056b3 100%);
+}
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+}
+footer {
+  background: #222;
+}
+#langBtn {
+  min-width: 80px;
+} 

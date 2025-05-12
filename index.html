@@ -3,13 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=p, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maycon Rocha | Web Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 style="text-align: center;">Bem-vindo a minha página!</h1>
-  <p style="text-align: center;">
-    Minha página pessoal
-  </p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Maycon Rocha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <button id="langBtn" class="btn btn-outline-light">PT-BR</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="text-center py-5 bg-primary text-white">
+    <h1 id="mainTitle">Web Systems Portfolio</h1>
+    <p id="mainSubtitle">Showcasing my best web projects and skills</p>
+  </header>
+  <section class="container my-5">
+    <h2 id="projectsTitle" class="mb-4">Featured Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Curriculum Management System</h5>
+            <p class="card-text">A robust platform for managing résumés and professional profiles. <a href="https://www.sistemasage.com.br" target="_blank">Visit</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Class Management System</h5>
+            <p class="card-text">A complete solution for educational class scheduling and management. <a href="https://paebeducacional.com.br" target="_blank">Visit</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Academic Records Management</h5>
+            <p class="card-text">System for managing academic processes and student records.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Student Meal Management</h5>
+            <p class="card-text">Platform for managing student meal distribution and records.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Warehouse Management</h5>
+            <p class="card-text">System for inventory and supply management.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Raffle & Key Control</h5>
+            <p class="card-text">Tools for managing raffles, key access, and computer lab entry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 id="skillsTitle" class="mb-4">Skills</h2>
+      <ul id="skillsList" class="list-inline">
+        <li class="list-inline-item badge bg-secondary m-1">PHP</li>
+        <li class="list-inline-item badge bg-secondary m-1">JavaScript</li>
+        <li class="list-inline-item badge bg-secondary m-1">Bootstrap</li>
+        <li class="list-inline-item badge bg-secondary m-1">HTML</li>
+        <li class="list-inline-item badge bg-secondary m-1">SQL</li>
+        <li class="list-inline-item badge bg-secondary m-1">CSS</li>
+        <li class="list-inline-item badge bg-secondary m-1">jQuery</li>
+        <li class="list-inline-item badge bg-secondary m-1">Git</li>
+        <li class="list-inline-item badge bg-secondary m-1">Laragon</li>
+        <li class="list-inline-item badge bg-secondary m-1">Apache</li>
+        <li class="list-inline-item badge bg-secondary m-1">Full-stack</li>
+        <li class="list-inline-item badge bg-secondary m-1">Python</li>
+        <li class="list-inline-item badge bg-secondary m-1">React</li>
+        <li class="list-inline-item badge bg-secondary m-1">React Native</li>
+        <li class="list-inline-item badge bg-secondary m-1">Android</li>
+        <li class="list-inline-item badge bg-secondary m-1">Flutter</li>
+        <li class="list-inline-item badge bg-secondary m-1">Next.js</li>
+        <li class="list-inline-item badge bg-secondary m-1">API Creation/Consumption</li>
+        <li class="list-inline-item badge bg-secondary m-1">AWS</li>
+      </ul>
+    </div>
+  </section>
+  <footer class="text-center py-4 bg-dark text-white">
+    <small id="footerText">&copy; 2024 Maycon Rocha. All rights reserved.</small>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
